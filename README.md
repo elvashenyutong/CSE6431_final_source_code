@@ -10,17 +10,17 @@ install Streamlit to view our generated results: `pip install streamlit`.
 - ### Run Streamlit App:
 Execute the Streamlit app: `python -m streamlit run final.py`.
 - ### Interact with Streamlit UI:
-https://llms-generated-vis-code-3r8paqrspbzpoykzhke9cn.streamlit.app/
+https://cse6431finalsourcecodegit-bdmappukqboyjk5zq2vx8bx.streamlit.app/
 
 ## How to Run
 ### Results Visualization:
-- Clone the repository: `git clone https://github.com/elvashenyutong/LLMs-Generated-Vis-Code`
+- Clone the repository: `git clone https://github.com/elvashenyutong/CSE6431_final_source_code.git`
 - Navigate to the directory: cd LLMs-Generated-Vis-Code
 - Or download the package of the code
 - Install dependencies: `pip install streamlit` for full test
 - Run the Streamlit app: `python -m streamlit run final.py`.
 - After executing the Streamlit app, it will create a local website
-- OR you can simply access this [URL](https://llms-generated-vis-code-3r8paqrspbzpoykzhke9cn.streamlit.app/) to view what we have achieved.
+- OR you can simply access this [URL](https://cse6431finalsourcecodegit-bdmappukqboyjk5zq2vx8bx.streamlit.app/) to view what we have achieved.
 ### Data Collection:
 - Download Google Extention: Amazon Product Finder - AMZScout PRO Extension
 - Enable AMZScout PRO Extension

@@ -9,6 +9,14 @@ st.set_page_config(
 
 st.title("MacBook Pro I/O Device Obsolescence")
 
+sales_data = {
+    "Product": ["Apple 60W MagSafe 2 Power Adapter", "Apple 85W MagSafe 2 Power Adapter", "Apple USB SuperDrive", "Apple USB-C to SD Card Reader", "SUM"],
+    "Sales": ["116,591", "281,241", "29,621", "40,875", "468,328"]
+}
+
+st.write("SALES DATA FOR APPLE ACCESSORIES ON AMAZON")
+st.table(sales_data)
+
 option_to_images = {
     "Apple USB SuperDrive": ["superdrive.png", "Apple_USB_SuperDrive.png"],
     "Apple USB Ethernet Adapter": ["ethernet_adapter.png"],
