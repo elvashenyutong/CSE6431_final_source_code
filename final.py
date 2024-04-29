@@ -51,17 +51,3 @@ with col2:
             st.write(f"Picture {image_filename} not found.")
     if len(image_filenames) == 1:
         st.write(f"There is no data for the product.")
-
-# for i, image_filename in enumerate(image_filenames):
-#     image_path = os.path.join('pic', image_filename)
-#     if os.path.exists(image_path):
-#         if i == 1:
-#             col1, col2 = st.columns([1, 2])
-#             with col2:
-#                 st.title("Sales History")
-#                 st.image(image_path, use_column_width=True)
-#         else:
-#             st.image(image_path, caption=selected_option if i == 0 else None, use_column_width=True)
-#     else:
-#         st.write(f"Picture {image_filename} not found.")
-

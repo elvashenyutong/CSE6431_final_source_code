@@ -2,7 +2,6 @@ var canvas = document.querySelector('canvas');
 
 var tooltip = document.querySelector('.chartjs-tooltip');
 
-// 模擬滑鼠移動
 function simulateMouseMove(element, toX, y, callback) {
     var tooltipData = [];
     
@@ -40,7 +39,6 @@ function simulateMouseMove(element, toX, y, callback) {
     move();
 }
 
-// 轉換成CSV
 function arrayToCSV(data) {
     var csvContent = "data:text/csv;charset=utf-8,";
     csvContent += "Date,Sales,Rank,Price\r\n";
@@ -51,7 +49,6 @@ function arrayToCSV(data) {
     return csvContent;
 }
 
-// 下載CSV
 function downloadSalesCSV(data) {
     var csvContent = arrayToCSV(data);
     var encodedUri = encodeURI(csvContent);
